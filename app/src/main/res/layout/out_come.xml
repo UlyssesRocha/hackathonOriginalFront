@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/outcome_plus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="45"
+        android:text="+"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="20"
+        android:text="R$"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/outcome_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="25"
+        android:text="110,00"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+</LinearLayout>

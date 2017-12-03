@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18ad45</color>
+    <color name="colorPrimaryDark">#006E21</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="chartColor1">#78281F</color>
+    <color name="chartColor2">#4A235A</color>
+    <color name="chartColor3">#1B4F72</color>
+    <color name="chartColor4">#186A3B</color>
+    <color name="chartColor5">#7E5109</color>
+    <color name="chartColor6">#17202A</color>
+</resources>

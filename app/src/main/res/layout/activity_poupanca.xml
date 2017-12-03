@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alan.original.hackathon.hackathonapp.Poupanca">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Você acabou de receber um novo depósito de mesada"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+        <View android:layout_width="200dp" android:layout_gravity="center_horizontal" android:layout_height="1dp" android:background="#cccccc"></View>
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="R$ 50,00"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+        <View android:layout_width="200dp" android:layout_gravity="center_horizontal" android:layout_height="1dp" android:background="#cccccc"></View>
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="O hábito de sempre depositar alguma quantidade de dinheiro no seu cofrinho é muito importante!"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+        <View android:layout_width="200dp" android:layout_gravity="center_horizontal" android:layout_height="1dp" android:background="#cccccc"></View>
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Selecione uma quantidade de dinheiro da sua mesada que será guardado!"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+        <View android:layout_width="200dp" android:layout_gravity="center_horizontal" android:layout_height="1dp" android:background="#cccccc"></View>
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <TextView
+            android:id="@+id/seekbarvalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="R$ 10,00"
+            android:textAlignment="center"
+            android:textSize="50sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="50"
+            android:min="20"
+            android:padding="5dp"
+            android:progress="10" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+        <Button
+            android:id="@+id/confirmarPoup"
+            android:padding="5dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Confirmar" />
+
+        <View android:layout_width="match_parent" android:layout_height="5dp" android:background="#ffffff"></View>
+
+    </LinearLayout>
+
+</LinearLayout>
